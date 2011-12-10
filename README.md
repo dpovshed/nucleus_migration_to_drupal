@@ -44,7 +44,9 @@ Known bugs and limitations
 --------------------------
 
 1) Please make sure that source and destination databases are in UTF-8.
+
 2) Current implementation parse media tags <%popup and <%image .
+
 3) Modification of Drupal DB is made mostly by Drupal API.
    Small disadvantage of this aproach is that import cannot be fully
    enclosed in transaction. So please backup Drupal SQL data just in case
@@ -54,15 +56,15 @@ Known bugs and limitations
 
 Changelog
 ---------
-13-Jan-2010 v1.11 Fixes:
+- 13-Jan-2010 v1.11 Fixes:
   - stripping all html tags in post titles;
 
-26-Dec-2009 v1.1 Fixes:
+- 26-Dec-2009 v1.1 Fixes:
   - full UTF-8 support;
   - comment processing;
   - correct processing of <%image tag without incomplete '('.
 
-27-Nov-2009 v1.0 Initial release
+- 27-Nov-2009 v1.0 Initial release
 
 Ideas and todos
 ---------------
